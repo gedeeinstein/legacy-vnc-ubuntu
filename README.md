@@ -8,8 +8,7 @@
 
 The following is an auto-generated tutorial (see `tutorial.py`) for setting up legacy VNC screen sharing with x11vnc:
 
-<details>
-<summary>Click to expand the step-by-step guide</summary>
+### the step-by-step guide
 
 **Step 1: Understand the Context**
 - Ubuntu 24.04 uses Wayland as the default display server.
@@ -135,7 +134,7 @@ x11vnc -auth guess -forever -loop -noxdamage -repeat -rfbauth ~/.vnc/passwd -rfb
 - Connect to VNC on port 5900 using your favorite VNC client.
 - Make sure firewall allows port 5900.
 
-</details>
+
 
 ---
 
